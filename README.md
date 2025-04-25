@@ -10,3 +10,5 @@ source - mandatory for the script to work, has to be valid url to a rss feed
 --limit - optional, needs to be an integer, limits the number of <item>s parsed, if provided the script only returns the latest (number provided) items from the feed
 
 If limit isn't provided or the provided limit is larger than amount of items in the feed, the script returns all items from the feed.
+
+Script doesn't support all possible RSS tags at the moment, adding support for one that isn't included is a matter of copy-pasting and slightly altering a few lines, feel free to contact me if you'd like me to include a tag in the code.
