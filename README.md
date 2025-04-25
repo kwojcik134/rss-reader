@@ -1,4 +1,5 @@
 # rss-reader
+A result of a project task in a python class I took.
 Python console script, accepts a url to a rss feed and prints out formatted information from that feed.
 Option to print in json formatting instead, code can be easily altered to save the json string to a file instead.
 
