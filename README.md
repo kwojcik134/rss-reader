@@ -5,10 +5,10 @@ Option to print in json formatting instead, code can be easily altered to save t
 
 Dependencies: requests library
 
-Usable arguments:<br/>
-source - mandatory for the script to work, has to be valid url to a rss feed<br>
+Usable arguments:<br>
+source - mandatory for the script to work, has to be a valid url to a rss feed<br>
 --json - optional, if used the script returns a formatted json string instead<br>
---limit - optional, needs to be an integer, limits the number of <item>s parsed, if provided the script only returns the latest (number provided) items from the feed<br>
+--limit - optional, needs to be an integer, limits the number of items parsed, if provided the script only returns the latest (number provided) items from the feed<br>
 
 If limit isn't provided or the provided limit is larger than amount of items in the feed, the script returns all items from the feed.<br>
 
